@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-    Client library for interacting with the [Sōzu](https://github.com/sozu-proxy/sozu) reverse proxy server.
+    Client library for interacting with the <a href="https://github.com/sozu-proxy/sozu">Sōzu</a> reverse proxy server.
 </p>
 
 <div align="center">
