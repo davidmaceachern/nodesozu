@@ -1,3 +1,4 @@
+# Based on https://github.com/evuez/exsozu/blob/master/sozu/Dockerfile
 FROM clevercloud/sozu:latest
 
 RUN apk add --no-cache \
