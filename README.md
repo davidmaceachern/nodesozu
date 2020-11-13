@@ -1,14 +1,27 @@
-# TSDX User Guide
+<div align="center">
+   📦🐼 
+</div>
 
-Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
+<h1 align="center">
+   Nodesozu 
+</h1>
 
-> This TSDX setup is meant for developing libraries (not apps!) that can be published to NPM. If you’re looking to build a Node app, you could use `ts-node-dev`, plain `ts-node`, or simple `tsc`.
+<p align="center">
+    Client library for interacting with the [Sōzu](https://github.com/sozu-proxy/sozu) reverse proxy server.
+</p>
+
+<div align="center">
+  <a alt="GitHub Workflow Status" href="https://github.com/davidmaceachern/nodesozu/actions">
+    <img  src="https://img.shields.io/github/workflow/status/davidmaceachern/nodesozu/CI">
+  </a>
+</div>
+<br />
+
+This client is written in Typescript.
 
 > If you’re new to TypeScript, checkout [this handy cheatsheet](https://devhints.io/typescript)
 
 ## Commands
-
-TSDX scaffolds your new library inside `/src`.
 
 To run TSDX, use:
 
@@ -91,12 +104,6 @@ The appropriate paths are configured in `package.json` and `dist/index.js` accor
 ## Named Exports
 
 Per Palmer Group guidelines, [always use named exports.](https://github.com/palmerhq/typescript#exports) Code split inside your React app instead of your React library.
-
-## Including Styles
-
-There are many ways to ship styles, including with CSS-in-JS. TSDX has no opinion on this, configure how you like.
-
-For vanilla CSS, you can include it at the root directory and add it to the `files` section in your `package.json`, so that it can be imported separately by your users and run through their bundler's loader.
 
 ## Publishing to NPM
 
