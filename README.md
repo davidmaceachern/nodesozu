@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-    Client library for interacting with the <a href="https://github.com/sozu-proxy/sozu">Sōzu</a> reverse proxy server.
+    Client library for interacting with the <a href="https://github.com/sozu-proxy/sozu">Sōzu</a> HTTP reverse proxy server.
 </p>
 
 <div align="center">
@@ -34,6 +34,9 @@ This builds to `/dist` and runs the project in watch mode so any edits you save 
 To do a one-off build, use `npm run build` or `yarn build`.
 
 To run tests, use `npm test` or `yarn test`.
+
+To run Sōzu in a container first build the container `docker build -t local/sozu ./sozu/`
+and then run the container `docker run -d -p 127.0.0.1:8080:8080 -v $(pwd)/data:/data local/sozu`.
 
 ## Configuration
 
