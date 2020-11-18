@@ -9,6 +9,8 @@ export interface CommandRequest {
 }
 
 // type status: "OK" | "PROCESSING" | "ERROR"
+
+
 export interface CommandResponse {
     id: string
     version: number
