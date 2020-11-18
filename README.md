@@ -17,7 +17,9 @@
 </div>
 <br />
 
-!! This library is still under development, and as such there are no guarantees that it will work under load if at all, contributions are welcome.!!
+!! This library is still under development, and as such there are no guarantees that it will work under load if at all,
+
+Contributions are welcome, see [here](https://github.com/davidmaceachern/nodesozu#contributing)
 
 ## Goal
 
