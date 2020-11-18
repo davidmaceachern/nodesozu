@@ -1,6 +1,6 @@
-# TSDX 
+# How this project was set up 
 
-This client is written in Typescript.
+This project was bootstrapped using the [TSDX tool](https://tsdx.io/)which means client is written in Typescript.
 
 > If you’re new to TypeScript, checkout [this handy cheatsheet](https://devhints.io/typescript)
 

@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-    <a href="https://nodejs.org/en/">Node.js®</a> Client library for interacting with the <a href="https://github.com/sozu-proxy/sozu">Sōzu</a> HTTP reverse proxy server.
+    <a href="https://nodejs.org/en/">Node.js</a> Client library for interacting with the <a href="https://github.com/sozu-proxy/sozu">Sōzu</a> HTTP reverse proxy server.
 </p>
 
 <div align="center">
@@ -21,22 +21,34 @@ This library is still under development, and as such there are no guarantees tha
 
 ## 💾 Install
 
-### NPM
+### 📦 NPM
 
 `npm install --save nodesozu`
 
 ## 🏓 Examples
 
-```
-import { Client } from xxxx
+A minimal example that demonstrates how to send a proxy status command to the Sozu server.
+
+```javascript
+import { Client } from nodesozu
 
 const socketPath = "/tmp/sozu.sock"
 
+const command = {
+      "id": "ID_TEST",
+      "type": "PROXY",
+      "version": 0,
+      "data": {
+        "type": "STATUS",
+      },
+      "worker_id": 0
+    }
+    
 let client = new Client(socketPath)
-client
+client.request(command)
 ```
-Find more examples in [examples](https://github.com/davidmaceachern/nodesozu/blob/main/examples)
 
+Find more examples [here](https://github.com/davidmaceachern/nodesozu/blob/main/examples)
 
 ## 🏗️ Continuous Integration
 
@@ -50,6 +62,9 @@ Two actions are added by default:
 ## Contributing
 
 Guidelines on how to contribute can be found [here](https://github.com/davidmaceachern/nodesozu/blob/main/.github/CONTRIBUTING.md)
+
+There are some living documents 
+[here](https://github.com/davidmaceachern/nodesozu/blob/main/doc) which covers some topics on development.
 
 ## Licence
 
