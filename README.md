@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-   Nodesozu 
+   Nodesozu !!!!! PRE-ALPHA 
 </h1>
 
 <p align="center">
@@ -17,7 +17,11 @@
 </div>
 <br />
 
-This library is still under development, and as such there are no guarantees that it will work under load, contributions are welcome.
+!! This library is still under development, and as such there are no guarantees that it will work under load if at all, contributions are welcome.!!
+
+## Goal
+
+To provide a resilient api for developers to interact with the Sozu command server using Typescript. Take a look at the Elixir version [here](https://github.com/evuez/exsozu).
 
 ## 💾 Install
 
