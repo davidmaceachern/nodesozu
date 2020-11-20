@@ -77,6 +77,10 @@ There are some living documents
 
 Licensed under MIT license (LICENSE-MIT or http://opensource.org/licenses/MIT)
 
+### Inspiration 
+
+The client code that handles commands was inspired by work done by [Connected Cars](https://connectedcars.dk/), the original client can be found [here](https://github.com/tlbdk/node-json-protocol)
+
 ### Contribution
 
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, shall be licenced as per above, without any additional terms or conditions.

@@ -8,13 +8,15 @@
     "src"
   ],
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test",
-    "test:watch": "tsdx test --watchAll",
+    "test:unit": "tsdx test ./test/",
+    "test:component": "tsdx test ./component-test",
+    "test:watch": "tsdx test --watch ./test",
     "test:coverage": "tsdx test --coverage",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
@@ -48,6 +50,8 @@
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "4.7.0",
+    "@types/node": "14.14.9",
+    "@types/jest": "24.0.15",
     "husky": "4.3.0",
     "size-limit": "4.7.0",
     "tsdx": "0.14.1",
