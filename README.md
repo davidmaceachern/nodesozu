@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-   Nodesozu !!!!! PRE-ALPHA 
+   MOVED TO [this repository](https://github.com/davidmaceachern/nosozu)
 </h1>
 
 <p align="center">
