@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-   MOVED TO [this repository](https://github.com/davidmaceachern/nosozu)
+   Moved to this repository https://github.com/davidmaceachern/nosozu
 </h1>
 
 <p align="center">
